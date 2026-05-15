@@ -1,0 +1,29 @@
+[marketplace]
+enabled = false
+psk = "CHANGEME"
+level = 1
+
+[seo]
+enabled = false
+domain = "https://nebulaproxy.io"
+
+[db]
+name = "database"
+username = "username"
+password = "password"
+postgres = false
+
+[postgres]
+domain = ""
+port = 5432
+
+[server.server]
+port = 8080
+wisp = true
+logging = true
+
+[masqr]
+enabled = false
+failed = "failed.html"
+whitelisted = ["https://nebulaservices.org"]
+url = ""
